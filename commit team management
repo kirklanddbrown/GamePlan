@@ -1,0 +1,9 @@
+# Add the new files
+git add app/components/team-management.tsx
+git add app/page.tsx
+
+# Commit the changes
+git commit -m "Add team management tab"
+
+# Push to your repository
+git push origin main  # or your deployment branch
