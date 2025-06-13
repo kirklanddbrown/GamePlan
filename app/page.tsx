@@ -161,7 +161,7 @@ function AppContent() {
         </div>
 
         <Tabs defaultValue="dashboard" className="w-full">
-          <TabsList className="grid w-full grid-cols-4 mb-6">
+          <TabsList className="grid w-full grid-cols-5 mb-6">            
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
             <TabsTrigger value="situations">Situations</TabsTrigger>
             <TabsTrigger value="plays">Plays</TabsTrigger>
