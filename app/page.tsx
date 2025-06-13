@@ -183,6 +183,20 @@ function AppContent() {
             </Card>
           </TabsContent>
 
+          <TabsContent value="team">
+   <Card>
+    <CardHeader>
+      <CardTitle>Team Management</CardTitle>
+      <CardDescription>
+        Manage your roster, track attendance, and organize practice sessions.
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <TeamManagement />
+    </CardContent>
+  </Card>
+</TabsContent>
+
           <TabsContent value="situations">
             <Card>
               <CardHeader>
